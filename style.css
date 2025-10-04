@@ -1,3 +1,4 @@
+/* ---------- Base Styles ---------- */
 body {
     font-family: 'Quicksand', sans-serif;
     margin: 0;
@@ -51,6 +52,7 @@ main {
     margin-bottom: 25px;
 }
 
+/* ---------- Buttons ---------- */
 .buttons {
     display: flex;
     justify-content: center;
@@ -77,6 +79,7 @@ main {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
+/* ---------- Grade Colors ---------- */
 .grade1 { background-color: #FFDAB9; color: #5C4033; } /* PeachPuff */
 .grade3 { background-color: #E6E6FA; color: #483D8B; } /* Lavender */
 .grade4 { background-color: #FADADD; color: #8B0000; } /* Pale Pink */
@@ -84,7 +87,14 @@ main {
 .grade7 { background-color: #F0E68C; color: #556B2F; } /* Khaki */
 .home-btn { background-color: #B2E2B2; color: #2E8B57; } /* Pale Green for Home */
 
+/* ---------- Week 4-8 Button Colors ---------- */
+.week-4 .grade-btn { background-color: #FFA500; color: white; } /* Orange */
+.week-5 .grade-btn { background-color: #800080; color: white; } /* Purple */
+.week-6 .grade-btn { background-color: #008080; color: white; } /* Teal */
+.week-7 .grade-btn { background-color: #FF69B4; color: white; } /* Hot Pink */
+.week-8 .grade-btn { background-color: #A52A2A; color: white; } /* Brown */
 
+/* ---------- Lists ---------- */
 ul {
     list-style: none;
     padding-left: 0;
@@ -106,7 +116,7 @@ ul li a:hover {
     text-decoration: underline;
 }
 
-/* Form Styles */
+/* ---------- Form Styles ---------- */
 .form-container, .feedback {
     background-color: #F8F8F8;
     padding: 30px;
@@ -162,7 +172,7 @@ form input, form select, form textarea {
     margin-bottom: 15px;
 }
 
-
+/* ---------- Footer ---------- */
 footer {
     background-color: #A7C7E7; /* Light Steel Blue */
     color: white;
@@ -172,7 +182,7 @@ footer {
     margin-top: 40px;
 }
 
-/* Responsive for mobile */
+/* ---------- Responsive for mobile ---------- */
 @media (max-width: 600px) {
     .grade-btn {
         max-width: 100%;
@@ -190,34 +200,5 @@ footer {
 
     h2 {
         font-size: 1.8rem;
-        /* Week 4 buttons */
-.week-4 .grade-btn { 
-    background-color: #FFA500; /* Orange */
-    color: white; 
-}
-
-/* Week 5 buttons */
-.week-5 .grade-btn { 
-    background-color: #800080; /* Purple */
-    color: white; 
-}
-
-/* Week 6 buttons */
-.week-6 .grade-btn { 
-    background-color: #008080; /* Teal */
-    color: white; 
-}
-
-/* Week 7 buttons */
-.week-7 .grade-btn { 
-    background-color: #FF69B4; /* Hot Pink */
-    color: white; 
-}
-
-/* Week 8 buttons */
-.week-8 .grade-btn { 
-    background-color: #A52A2A; /* Brown */
-    color: white; 
-}
     }
 }
