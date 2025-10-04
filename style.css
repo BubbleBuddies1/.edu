@@ -190,5 +190,34 @@ footer {
 
     h2 {
         font-size: 1.8rem;
+        /* Week 4 buttons */
+.week-4 .grade-btn { 
+    background-color: #FFA500; /* Orange */
+    color: white; 
+}
+
+/* Week 5 buttons */
+.week-5 .grade-btn { 
+    background-color: #800080; /* Purple */
+    color: white; 
+}
+
+/* Week 6 buttons */
+.week-6 .grade-btn { 
+    background-color: #008080; /* Teal */
+    color: white; 
+}
+
+/* Week 7 buttons */
+.week-7 .grade-btn { 
+    background-color: #FF69B4; /* Hot Pink */
+    color: white; 
+}
+
+/* Week 8 buttons */
+.week-8 .grade-btn { 
+    background-color: #A52A2A; /* Brown */
+    color: white; 
+}
     }
 }
